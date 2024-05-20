@@ -733,3 +733,52 @@ nav {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .section__container {
+      padding: 15px;
+      margin: 10px;
+  }
+  
+  .section__header {
+      font-size: 1.8em;
+  }
+  
+  .section__description {
+      font-size: 1em;
+  }
+}
+
+/* Media query para pantallas hasta 768px de ancho */
+@media screen and (max-width: 768px) {
+  .section__container {
+      padding: 15px;
+      margin: 15px 10px;
+  }
+  
+  .section__header {
+      font-size: 1.8em;
+  }
+  
+  .section__description {
+      font-size: 1em;
+  }
+}
+
+/* Media query para pantallas hasta 480px de ancho */
+@media screen and (max-width: 480px) {
+  .section__container {
+      padding: 10px;
+      margin: 10px 5px;
+  }
+  
+  .section__header {
+      font-size: 1.5em;
+  }
+  
+  .section__description {
+      font-size: 0.9em;
+  }
+}
+
